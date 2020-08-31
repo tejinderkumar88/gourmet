@@ -1,0 +1,305 @@
+html,
+body {
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-size: 13px;
+    color: #505050;
+    direction: ltr;
+    font-family: 'Gotham';
+    background: #fff;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+form,
+input,
+ul,
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+::selection {
+    background: #3777bb;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #3777bb;
+    color: #fff;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #7d7d7d;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a img {
+    border: 0px;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+    font-size: 0px;
+    height: 0px;
+    line-height: 0px;
+}
+
+td {
+    padding: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix::after {
+    clear: both;
+}
+.btn.focus, .btn:focus, button:focus {
+    outline: 0;
+    box-shadow:none;
+}
+
+
+/* ----- Home page style ----- */
+.header_top { background: #55cae7; padding:13px 0; }
+.header_bottom li .nav-link { font-size:14px; padding-left:1.2rem !important; padding-right: 1.2rem !important; font-weight: 400; text-transform: uppercase; }
+.btn-secondary { background-color: #505050; border:0; font-size:14px; border-radius: 30px; padding:9px 22px; }
+.header_bottom { background: url('../images/pattern.png') left top repeat-x;}
+.header_bottom li .nav-link:hover { color:#55cae7; }
+.header_top li { margin-right: 20px; }
+.header_top li:last-child { margin-right: 0; }
+.header_top li a { color:#fff; }
+.navbar-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.home_banner { background: url('../images/sign-banner.jpg') left center no-repeat; background-size: cover; padding:186px 0;}
+.btn-primary { background-color: #55cae7; border-color:transparent; font-size:14px; border-radius: 30px; padding:12px 48px; }
+.btn-primary:hover { background-color: #41aac4; border-color:transparent; }
+.banner h6 { font-weight: 300; font-size:18px; margin:15px 0 25px 0;}
+
+/* ----- About page style ----- */
+.about_banner { background: url('../images/about-banner.jpg') left center no-repeat; background-size: cover; padding:115px 0; }
+.heading { font-size:35px; }
+.howItWorks h4 { font-weight: normal; margin:15px 0; font-family: 'Gotham Book'; text-align:center; }
+.howItWorks li { position: relative; background:url('../images/arrow.png') left 6px no-repeat; margin:5px 0;  padding-left: 15px;}
+.workColumn { border:2px solid #55cae7; height: 100%; border-radius: 5px; padding:20px 15px;}
+
+
+
+
+/*Start Gurcharan css*/
+/* header navigation */
+.nav-item .dropdown button{min-width: 173px; text-align:left ;border-radius:4px;padding: 9px 17px; text-transform:uppercase;}
+.nav-item .dropdown.show button{box-shadow:none !important; text-align: left;}
+.nav-item .dropdown-menu{background-color:#545b62; border-color:#545b62; color:#fff;}
+.nav-item .dropdown-menu .dropdown-item{color:#fff;padding: .5rem 4.15rem .5rem 1rem;;font-size: 15px;}
+.nav-item .dropdown-menu .dropdown-item:hover{opacity:0.7;}
+.nav-item .dropdown-menu .dropdown-item i.fa{padding-right:20px;}
+.nav-item .dropdown-menu .dropdown-item:hover,
+.nav-item .dropdown-menu .dropdown-item:focus{
+  background-color:transparent; 
+}
+.nav-item .dropdown-toggle::after{margin-top:9px;float:right;}
+/* Add student page */
+.sp-header{background-color:#f0f0f0;padding: 1.5rem 0px;
+    -webkit-box-shadow: inset 0 20px 60px -50px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 20px 60px -50px rgba(0,0,0,0.8);
+    box-shadow: inset 0 20px 60px -50px rgba(0,0,0,0.8);}
+.sp-header .text-center{padding: 1rem 0px 0rem;}
+.inner-nav{display: inline-block;width: 100%; text-align:center; margin: 2rem 0px;}
+.inner-nav ul{display:inline-block;} 
+.inner-nav ul li{float:left;}
+.std-forms-area{background-color:#f0f0f0;}
+.bg-lite-grey{background-color:#f0f0f0;}
+.bg-white{background-color:#fff;}
+.std-forms-area .row{background-color:#fff; padding:35px 20px !important;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+margin-bottom: 50px;
+}
+.box_shadow{background-color:#fff; padding:35px 20px !important;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+margin-bottom: 50px;}
+
+/* Tables */
+.table-section, .shop-section{padding: 40px !important;max-width: 1400px; margin: 0px auto 50px auto;}
+.dataTable{border: 1px solid #dee2e6; margin-bottom:0px;}
+.dataTable tr th{padding: .8rem 1.5rem;}
+.dataTable tr td{padding: 1.2rem 1.5rem;}
+.dataTable tr th{border-bottom:none; background-color:#f3f3f3; font-family: 'Gotham Book'; font-size:15px;color:#505050;font-weight: normal;}
+.dataTable tr td{font-size:15px;color:#434343; font-weight:300; vertical-align:middle;}
+.dataTable tr td.desc{width:410px; min-width:200px;}
+.dataTable .btn-td{display:inline-flex;}
+.dataTable .btn-td button:nth-child(2){margin:0px 5px;}
+.std-info-table th,.std-info-table td{font-size:14px !important;}
+.std-info-table th{padding:.8rem .5rem !important;}
+.std-info-table td{padding: 1.2rem .5rem !important;}
+.shop-section .item .add-to-cart button, .std-info-table td button{font-size:14px;border-radius: 20px; background-color: #55cae7; border-color: #55cae7;padding: 7px 14px;}
+.shop-section .item .add-to-cart button:hover, .std-info-table td button:hover,.button-top-section button:hover{opacity:0.8;background-color: #55cae7; border-color: #55cae7;}
+.button-top-section{max-width:1400px; margin:0px auto; text-align:right; padding-bottom:30px;}
+.button-top-section button{border-radius:20px;background-color:#505050; border-color:#505050;padding: 7px 20px; font-size: 15px;}
+/**/
+
+/* forms */
+.contact_form label{font-weight:500; font-size:14px;}
+.f-heading{margin-bottom:50px;}
+.formCont{max-width:500px;margin:0px auto;}
+.f-heading h2.title{font-size:50px; color:#55cae7; text-transform:uppercase;font-weight:900;}
+.f-heading h3.subtitle{font-size:25px; color:#505050; text-transform:uppercase;letter-spacing: 4.5px;
+    text-indent: 10px;}
+.form-group-2{margin-top:40px;}
+.form-group-3{margin-bottom:2rem;}
+.forgot-pass{float:right; margin-top:10px;}
+.forgot-pass a{color:#55cae7; font-size:14px;font-family: 'Gotham Book';}
+.formCont p.text{text-align: center; font-weight: 500; font-size: 14px; color:#505050; padding-bottom:15px;}
+/**/
+/* form error */
+.formCont .error,.std-forms-area .error{display:none; color: red; margin-top: 5px;}
+/**/
+
+/* Inner page nav */
+nav.inner-nav ul li a{font-size:14px; font-weight:500;text-transform: uppercase; color:#505050;padding: 11px 20px; border-radius: 20px; }
+nav.inner-nav ul li:nth-child(2){padding: 0px 2rem;} 
+nav.inner-nav ul li a:hover{color:#55cae7;}
+nav.inner-nav ul li a:hover,nav.inner-nav ul li a.active{color:#fff; background-color:#505050;}
+/**/
+/* Shop Page */
+.shop-section .shop-title{font-size: 15px; margin-bottom: 20px;}
+.shop-section .items{display:flex; flex-wrap:wrap; justify-content:space-between;}
+.shop-section .item{float:none; width:18%; margin-bottom:40px;}
+.shop-section .item a{display:block;color:#000;}
+.shop-section .item img{border:1px solid #cccccc; padding:10px; width:100%;}
+.shop-section .item p{font-weight:300; color:#434343; font-size:15px;}
+.shop-section .item div.price{display:inline-flex;}
+.shop-section .item div.price .old-price{margin-right:10px;}
+.shop-section .item .add-to-cart button{width:100%;}
+.shop-section .item .item-name,
+.shop-section .item div.price,
+.shop-section .item .add-to-cart{margin-top:12px;}
+@media (max-width:1280px){
+  .shop-section .item{
+    width:23%;
+  }
+  
+}
+@media (max-width:992px){
+  .shop-section .item{
+    width:31%;
+  }
+  
+}
+@media (max-width:767px){
+  .inner-nav ul li{
+    float:none;
+    margin-bottom: 24px;
+  }
+  .shop-section .item{
+    width:47%;
+  }
+  
+}
+@media (max-width:480px){
+  .button-top-section{
+    text-align:center;
+  }
+  .button-top-section button{
+    margin-bottom:10px; 
+  }
+  .shop-section .item{
+    width:100%;
+  }
+}
+
+/*End Gurcharan css*/
+
+
+
+
+
+footer { background:#f0f0f0 url('../images/footer-pattern.jpg') left top repeat-x; padding-top:3px;}
+#testimonials .item { background-color: #fff; padding:35px 60px; margin-top:25px; }
+#testimonials h4 { font-size:22px; position: relative; font-family: 'Gotham Book'; font-weight: normal; }
+#testimonials h4:before { position: absolute; color: #434343; left: -30px; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f10d"; font-size: 20px; }
+#testimonials p { font-size: 15px; margin:15px 0; }
+#testimonials .owl-nav button.owl-prev span { font-size: 0px; background: url(../images/left-arrow.png) no-repeat left top; width: 14px; height: 23px; float: left;}
+#testimonials .owl-nav button.owl-next span { font-size: 0px; background: url(../images/arrow-right.png) no-repeat left top; width: 14px; height: 23px; float: left; }
+#testimonials .owl-nav button.owl-prev { position: absolute; left: -25px; top: 43%; }
+#testimonials .owl-nav button.owl-next { position: absolute; right: -25px; top: 43%; }
+
+.p-6 { padding-top:50px; padding-bottom: 70px; }
+
+.footer_top { background-color: #55cae7; padding:70px 0; }
+.footer_top h4 { font-size: 25px; margin-bottom: 28px; color:#fff; font-weight: 500; }
+.footer_top li { margin-bottom:15px; }
+.footer_top li, .footer_top a { color:#fff; font-size:15px;}
+.footer_top a:hover { color:#c0eef9; }
+.footer_top .fa-chevron-right { font-size:13px; }
+
+.footer_bottom p { font-size:15px; }
+
+/* ----- Contact Page Starts Here ----- */
+.contact_form .form-control { font-size: 14px; font-weight: 300; padding:.670rem .75rem; border-radius: 0; border:1px solid #b2b2b2; }
+.contact_form .form-group { margin-bottom: 2.4rem; }
+.btn-pad { padding:12px 30px; }
+/* ----- Media Query Starts Here ----- */
+@media(max-width:767px) {
+  .header_bottom .navbar-nav { background-color:#55cae7; margin-top:20px; align-items: initial !important;  }
+  .header_bottom .nav-link{ color:#fff; }
+  .header_bottom .nav-link:hover { color:#fff !important; }
+  .header_bottom .btn-secondary { margin-left:15px; margin-bottom: 15px; }
+  .header_top ul { justify-content: center; margin:5px 0; }
+}
+@media(max-width:600px) {
+#testimonials .owl-nav button.owl-prev span, #testimonials .owl-nav button.owl-next span { display: none; }
+#testimonials .item { padding:35px; }
+}
+@media(max-width:480px) {
+  .banner h1 { font-size:26px; }
+  .banner h6 { font-size:16px; }
+  .heading { font-size: 25px; }
+  .footer_top h4 { font-size: 20px; margin-bottom: 10px; }
+  .footer_top { padding:40px 0; }
+  }
